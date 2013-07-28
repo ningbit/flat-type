@@ -13,5 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require ../../../vendor/assets/bootstrap/js/bootstrap.js
+//= require ../../../vendor/assets/javascripts/formToWizard.js
 //= require_tree .
 

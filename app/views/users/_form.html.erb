@@ -11,15 +11,29 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :first_name %><br />
-    <%= f.text_field :first_name %>
-  </div>
-  <div class="field">
-    <%= f.label :last_name %><br />
-    <%= f.text_field :last_name %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <fieldset>
+    <legend>User information</legend>
+    <div class="field">
+      <%= f.label :first_name %><br />
+      <%= f.text_field :first_name %>
+    </div>
+    <div class="field">
+      <%= f.label :last_name %><br />
+      <%= f.text_field :last_name %>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Part One</legend>
+      <div class="field">
+        <p>1. Are you usually</p>
+        <input type="radio">a "good mixer,"</input>
+        <input type="radio">or rather quiet and reserved?</input>
+      </div>
+  </fieldset>
+  <fieldset>
+    <legend>Submit!</legend>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+  </fieldset>
 <% end %>
